@@ -1,3 +1,6 @@
+![Poster](https://github.com/user-attachments/assets/09c8cea3-2e8c-4eb2-9952-9b95dd503921)
+(Cover from design owner)
+
 # Flutter Mini Project: A Showcase of Clean and Scalable Flutter Development
 
 This Flutter mini-project is a comprehensive demonstration of best practices in Flutter app development, focusing on clean architecture, reusable components, and responsive design. The project serves as a showcase of my coding skills and ability to build scalable and maintainable Flutter applications.
@@ -44,3 +47,6 @@ The purpose of this mini-project is to practice and showcase proficiency in Flut
 
 # APK Download
 https://drive.google.com/drive/folders/1V-qvjTDQRskutD9f34bZdHbTXFcChuL2?usp=drive_link
+
+# Big thanks to Figma design (Whoever you are I'm really appreciate)
+https://www.figma.com/design/oteEWNMRgzxrK5sVQCMXBT/Clash-of-Clans-UI-(Community)?node-id=182-947&node-type=frame&m=dev
