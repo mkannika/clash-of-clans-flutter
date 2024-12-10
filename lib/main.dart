@@ -1,4 +1,4 @@
-import 'package:clash_of_clans/constants.dart';
+import 'package:clash_of_clans/core/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -58,19 +58,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  /* int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }*/
-
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -109,172 +96,13 @@ class _MyHomePageState extends State<MyHomePage> {
                     crossAxisCount: 2,
                     crossAxisSpacing: 16,
                     mainAxisSpacing: 16,
-                    children: [
-                      CharacterCard(
-                        // Add the Barbarian image URL in assets/images/barbarian.png
-                        imageUrl: 'assets/images/barbarian.webp',
-                        name: 'Barbarian',
-                        bgColor: Colors.yellow.shade100,
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) =>
-                                  const CharacterDetailsScreen(
-                                name: 'Barbarian',
-                                imageUrl: 'assets/images/barbarian.webp',
-                              ),
-                            ),
-                          );
-                        },
-                      ),
-                      CharacterCard(
-                        imageUrl: 'assets/images/balloon.webp',
-                        name: 'Balloon',
-                        bgColor: Colors.red.shade100,
-                        onTap: () => {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) =>
-                                  const CharacterDetailsScreen(
-                                name: 'Balloon',
-                                imageUrl: 'assets/images/balloon.webp',
-                              ),
-                            ),
-                          ),
-                        },
-                      ),
-                      CharacterCard(
-                        imageUrl:
-                            'assets/images/baby-dragon.webp', // Add Baby Dragon image URL
-                        name: 'Baby Dragon',
-                        bgColor: Colors.green.shade100,
-                        onTap: () => {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) =>
-                                  const CharacterDetailsScreen(
-                                name: 'Baby Dragon',
-                                imageUrl: 'assets/images/baby-dragon.webp',
-                              ),
-                            ),
-                          ),
-                        },
-                      ),
-                      CharacterCard(
-                        imageUrl:
-                            'assets/images/dragon.webp', // Add Dragon image URL
-                        name: 'Dragon',
-                        bgColor: Colors.blue.shade100,
-                        onTap: () => {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) =>
-                                  const CharacterDetailsScreen(
-                                name: 'Dragon',
-                                imageUrl: 'assets/images/dragon.webp',
-                              ),
-                            ),
-                          ),
-                        },
-                      ),
-                    ],
+                    childAspectRatio: 0.7,
+                    children: characterCards,
                   ),
                 ),
               )
             ],
           ),
         ));
-  }
-}
-
-class CharacterCard extends StatelessWidget {
-  final String imageUrl;
-  final String name;
-  final Color bgColor;
-  final VoidCallback onTap; // Add a callback for navigation
-
-  const CharacterCard({
-    super.key,
-    required this.imageUrl,
-    required this.name,
-    required this.bgColor,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        color: bgColor,
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Image.asset(
-            imageUrl,
-            height: 80,
-          ),
-          const SizedBox(height: 8),
-          Text(
-            name,
-            style: const TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 16,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class CharacterDetailsScreen extends StatelessWidget {
-  final String name;
-  final String imageUrl;
-
-  const CharacterDetailsScreen({
-    super.key,
-    required this.name,
-    required this.imageUrl,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(name),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.network(
-              imageUrl,
-              height: 200,
-            ),
-            const SizedBox(height: 16),
-            Text(
-              name,
-              style: const TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const SizedBox(height: 16),
-            Text(
-              'This is detailed information about $name.',
-              style: const TextStyle(fontSize: 16),
-              textAlign: TextAlign.center,
-            ),
-          ],
-        ),
-      ),
-    );
   }
 }
