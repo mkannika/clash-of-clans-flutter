@@ -46,7 +46,7 @@ The purpose of this mini-project is to practice and showcase proficiency in Flut
    ```
 
 # APK Download
-https://drive.google.com/drive/folders/1V-qvjTDQRskutD9f34bZdHbTXFcChuL2?usp=drive_link
+https://drive.google.com/file/d/1ySaDub6DXQQocsSsuZ1O5RgW2kSEq_xn/view?usp=sharing
 
 # Big thanks to Figma design (Whoever you are I'm really appreciate)
 https://www.figma.com/design/oteEWNMRgzxrK5sVQCMXBT/Clash-of-Clans-UI-(Community)?node-id=182-947&node-type=frame&m=dev
