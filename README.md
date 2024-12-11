@@ -8,23 +8,16 @@ This Flutter mini-project is a comprehensive demonstration of best practices in 
 ## Features
 
 - **Clean Code Practices**: Follows SOLID principles, well-structured folder organization, and descriptive naming conventions for easy readability and maintenance.
-- **State Management**: Utilizes [Provider/Bloc/Riverpod] for efficient and scalable state management.
-- **Responsive UI**: Ensures smooth rendering across various screen sizes and devices using MediaQuery and flexible widgets.
 - **Reusable Components**: Includes modular and reusable widgets for consistent design and functionality.
-- **Dynamic Navigation**: Implements a robust routing system for seamless screen transitions.
-- **Theming**: Supports light and dark themes with consistent UI design.
-- **Testability**: Designed with unit and widget testing in mind for a reliable and bug-free app.
 
 ## Tech Stack
 
 - **Framework**: [Flutter](https://flutter.dev) (Dart)
-- **State Management**: Provider/Bloc/Riverpod (choose one based on your project)
-- **UI/UX Design**: Material Design components with custom styling
 - **Tools**: Android Studio, Visual Studio Code
 
 ## Purpose of the Project
 
-The purpose of this mini-project is to practice and showcase proficiency in Flutter development, focusing on creating maintainable, testable, and scalable code. It demonstrates how to handle both business logic and user interface effectively in a production-ready app.
+The purpose of this mini-project is to practice and showcase proficiency in Flutter development.
 
 ## How to Run
 
