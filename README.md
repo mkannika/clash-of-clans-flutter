@@ -1,6 +1,6 @@
 ![Poster](https://github.com/user-attachments/assets/09c8cea3-2e8c-4eb2-9952-9b95dd503921)
 ## Special Thanks 🙏
-A big thank you to the talented Figma designer who created the original design that inspired this project. I don’t know who you are, but your work made a real difference — and I truly appreciate it!
+A big thank you to the talented [Figma](https://www.figma.com/design/oteEWNMRgzxrK5sVQCMXBT/Clash-of-Clans-UI-(Community)?node-id=182-947&node-type=frame&m=dev) designer who created the original design that inspired this project. I don’t know who you are, but your work made a real difference — and I truly appreciate it!
 
 # Flutter Mini Project: A Showcase of Clean and Scalable Flutter Development
 
@@ -41,6 +41,3 @@ The purpose of this mini-project is to practice and showcase proficiency in Flut
 
 # APK Download
 https://drive.google.com/file/d/1ySaDub6DXQQocsSsuZ1O5RgW2kSEq_xn/view?usp=sharing
-
-# Big thanks to Figma design (Whoever you are I'm really appreciate)
-https://www.figma.com/design/oteEWNMRgzxrK5sVQCMXBT/Clash-of-Clans-UI-(Community)?node-id=182-947&node-type=frame&m=dev
