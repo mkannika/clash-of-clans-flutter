@@ -1,5 +1,6 @@
 ![Poster](https://github.com/user-attachments/assets/09c8cea3-2e8c-4eb2-9952-9b95dd503921)
-(Cover from design owner)
+## Special Thanks 🙏
+A big thank you to the talented Figma designer who created the original design that inspired this project. I don’t know who you are, but your work made a real difference — and I truly appreciate it!
 
 # Flutter Mini Project: A Showcase of Clean and Scalable Flutter Development
 
